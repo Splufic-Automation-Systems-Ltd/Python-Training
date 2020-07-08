@@ -43,3 +43,7 @@ def getFullName(f_name, s_name):
 	"""
 	return ' '.join([f_name.title(), s_name.title()])
 	# return f_name + ' ' + s_name
+
+
+def starts_with(name, l):
+	return True if name.title().startswith(l) else False
